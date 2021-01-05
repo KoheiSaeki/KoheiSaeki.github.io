@@ -1,3 +1,2 @@
-Seurat_v3/* filter=lfs diff=lfs merge=lfs -text
-Seurat_v3/Seurat_v3/exprMatrix.bin filter=lfs diff=lfs merge=lfs -text
-Seurat_v3/Seurat_v3/exprMatrix.tsv.gz filter=lfs diff=lfs merge=lfs -text
+exprMatrix.bin filter=lfs diff=lfs merge=lfs -text
+exprMatrix.tsv.gz filter=lfs diff=lfs merge=lfs -text
