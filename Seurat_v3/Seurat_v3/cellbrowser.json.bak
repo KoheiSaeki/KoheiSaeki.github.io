@@ -1,0 +1,36 @@
+{
+  "name": "Seurat_v3",
+  "shortLabel": "Seurat_v3",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "Cluster_annotation",
+  "labelField": "Cluster_annotation",
+  "enumFields": [
+    "Sample",
+    "Cluster_annotation",
+    "Study",
+    "Mouse_strain",
+    "Developmental_stage"
+  ],
+  "radius": 5,
+  "alpha": 0.3,
+  "colors": "/home/kohei/Documents/UCSC_CB/Seurat_v3_out/colors.csv",
+  "enumOrder": {
+    "Cluster_annotation": "Cluster_annotation_order.txt",
+    "Developmental_stage": "Developmental_stage_order.txt",
+    "Study": "Study_order.txt",
+    "Mouse_strain": "Mouse_strain_order.txt"
+  },
+  "coords": [
+    {
+      "file": "/home/kohei/Documents/UCSC_CB/Seurat_v3_out/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/home/kohei/Documents/UCSC_CB/Seurat_v3_out/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}

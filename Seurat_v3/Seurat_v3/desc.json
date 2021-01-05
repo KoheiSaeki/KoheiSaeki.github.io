@@ -1,0 +1,7 @@
+{
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz",
+    "Seurat_pca.coords.tsv.gz"
+  ],
+  "matrixFile": "/home/kohei/Documents/public_html/Seurat_v3/Seurat_v3/exprMatrix.tsv.gz"
+}
